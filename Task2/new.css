@@ -1,0 +1,84 @@
+body{
+    display:block;
+    font-family: 'Times New Roman', Times, serif;
+    
+    background-image:url("Artistic-Waves-Blue-Abstract-Powerpoint-Backgrounds-.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+   
+}
+.heder
+ {
+    height:160px;
+    width:100%; 
+    background-image: url('cropped-growmore-removebg-preview.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 50px;
+    font-style: bold;
+    font-size: 100px;
+    color:rgb(255, 128, 0)
+    
+}
+.btn{
+    position:absolute;
+    top:20px;
+    right:70px;
+    
+}
+button{
+    color:rgb(19, 18, 18);
+    height:70px;
+    width:180px;
+
+    background-image: linear-gradient(rgb(216, 4, 4),white);
+    border-radius: 50px;
+  
+
+    
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color: rgb(14, 13, 13);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color: #73d4ec;
+
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 128, 0);
+    padding-top: 120px;
+    font-size: 30px;
+}
+.trum{
+    font-size: 25px;
+    text-align: center;
+}
